@@ -14,7 +14,7 @@ header:
     - name: Home
       slug: /
     - name: Work
-    - name: Blog
+    - name: Blah
 
 footer:
   show_powered_by: true
@@ -32,7 +32,7 @@ footer:
     - name: Facebook
       link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/diegoegarcia03/
     - name: GitHub
       link: http://github.com/YourGitHubUsername
     - name: Dribbble
