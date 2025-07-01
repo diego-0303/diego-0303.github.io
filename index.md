@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Hey, I think you stole my dogs - John Wick
+home_text:
 title: Diego Garcia
 ---
