@@ -8,7 +8,7 @@ const themeMap = {
     'background-color': '#222',
     'text-color': 'white',
     'highlight-color': '#2e2e2e'
-  },
+  }/*,
   'solarized-light': {
     'background-color': '#fdf6e3',
     'text-color': '#657b83',
@@ -28,5 +28,5 @@ const themeMap = {
     'background-color': '#3e2c1c',
     'text-color': '#d8c3a5',
     'highlight-color': '#4b382a'
-  }
+  }*/
 }

@@ -217,13 +217,30 @@ body {
 }
 
 #themeSelector {
+  //position: fixed;
+  //top: 10px;
+  //right: 10px;
+  //background: var(--primary-background-color);
+  //color: var(--primary-text-color);
+  //border-radius: 5px;
+  //border: 0;
   position: fixed;
-  top: 5px;
-  right: 5px;
-  background: var(--primary-background-color);
+  top: 10px;
+  left: 10px; // previously it was `right: 5px`, but your screenshot shows it on the left
+  background: none;
+  border: none;
+  font-size: 1.5rem; // bigger for emoji
+  cursor: pointer;
   color: var(--primary-text-color);
-  border-radius: 5px;
-  border: 0;
+  z-index: 10;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 .post-footer {
   margin-top: 50px;
