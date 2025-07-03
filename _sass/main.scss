@@ -217,29 +217,37 @@ body {
 }
 
 #themeSelector {
-  //position: fixed;
-  //top: 10px;
-  //right: 10px;
-  //background: var(--primary-background-color);
-  //color: var(--primary-text-color);
-  //border-radius: 5px;
-  //border: 0;
-  position: fixed;
-  top: 10px;
-  left: 10px; // previously it was `right: 5px`, but your screenshot shows it on the left
-  background: none;
-  border: none;
-  font-size: 1.5rem; // bigger for emoji
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  padding: 0;
+  font-size: 1.5rem;
   cursor: pointer;
   color: var(--primary-text-color);
   z-index: 10;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    filter: none;
+    /* Only scale on hover */
     transform: scale(1.1);
   }
 
-  &:focus {
-    outline: none;
+  svg {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    display: block;
   }
 }
 .post-footer {
