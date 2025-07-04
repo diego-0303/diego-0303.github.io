@@ -255,10 +255,17 @@ body {
   }
 }
 
+/*
 #themeSelector .theme-icon {
   width: var(--theme-icon-size);
   height: var(--theme-icon-size);
   display: block;
+}
+*/
+#themeSelector .theme-icon {
+  width: 48px !important;
+  height: 48px !important;
+  background: #f00 !important; /* for visibility */
 }
 
 .post-footer {
