@@ -217,6 +217,10 @@ body {
 }
 
 #themeSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --theme-icon-size: 36px; // Default size, easily changeable
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -250,6 +254,13 @@ body {
     display: block;
   }
 }
+
+#themeSelector .theme-icon {
+  width: var(--theme-icon-size);
+  height: var(--theme-icon-size);
+  display: block;
+}
+
 .post-footer {
   margin-top: 50px;
   display: flex;
