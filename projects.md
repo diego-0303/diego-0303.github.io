@@ -8,7 +8,7 @@ permalink: /projects/
 
 <div class="projects-grid">
   <a href="#" class="project-image-link">
-    <img src="screenshots/Blog.png" alt="Project 1">
+    <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
   </a>
   <a href="#" class="project-image-link">
     <img src="https://via.placeholder.com/400x400?text=Project+2" alt="Project 2">
