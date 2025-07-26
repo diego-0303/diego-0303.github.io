@@ -14,25 +14,28 @@ permalink: /projects/
     <img src="https://diego-0303.github.io/images/FLYING_CARPET.jpeg" alt="Flying Carpet">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/SHUTTLEBOT.jpeg" alt="Shuttle Bot">
+    <img src="https://diego-0303.github.io/images/SHUTTLEBOT.JPG" alt="Shuttle Bot">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/133A.jpeg" alt="133A">
+    <img src="https://diego-0303.github.io/images/133A.png" alt="133A">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/133B.jpeg" alt="133B">
+    <img src="https://diego-0303.github.io/images/133B.png" alt="133B">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/ERNIE.jpeg" alt="ERNIE">
+    <img src="https://diego-0303.github.io/images/ERNIE.png" alt="ERNIE">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/ARM_JOINT.jpeg" alt="Arm Joint">
+    <img src="https://diego-0303.github.io/images/ARM_JOINT.jpg" alt="Arm Joint">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/GEARBOX" alt="Gearbox">
+    <img src="https://diego-0303.github.io/images/GEARBOX.jpeg" alt="Gearbox">
   </a>
   <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/PET_TOY" alt="Pet toy">
+    <img src="https://diego-0303.github.io/images/PET_TOY.png" alt="Pet toy">
+  </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/EARTHQuAKE.jpg" alt="Pet toy">
   </a>
 </div>
 
