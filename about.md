@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+Hi there! I'm Diego. I am currently working as a product engineer in the aerospace and defense industry and also trying to find new hobbies now that I am no longer a collegiate soccer player (please let me know if any suggestions come to mind I'm so bored).  This website will take you through my interests and my projects, feel free to reach out if you find something that interests you. I graduated from Caltech with a B.S. in mechanical engineering in June of 2025.  During undergraduate studies I mainly focused on robotics projects to supplement my traditional mechanical engineering education. Looking into the future I would love to continue my studies and also attempt to build the future of major industries using robots. For the moment being I am more than excited to work on other interesting projects and build an expertise in engineering and manufacturing!  
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
