@@ -1,5 +1,5 @@
 ---
-layout: description
+layout: page
 title: Projects
 permalink: /projects/
 ---
@@ -7,35 +7,17 @@ permalink: /projects/
 # Projects
 
 <div class="projects-grid">
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
+  <a href="/projects/robotic-arm/" class="project-image-link">
+    <img src="LARY1.jpeg" alt="Robotic Arm Project">
   </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/FLYING_CARPET.jpeg" alt="Flying Carpet">
+  <a href="/projects/portfolio-website/" class="project-image-link">
+    <img src="https://via.placeholder.com/400x400?text=Project+2" alt="Portfolio Website">
   </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/SHUTTLEBOT.JPG" alt="Shuttle Bot">
+  <a href="/projects/ai-tutor/" class="project-image-link">
+    <img src="https://via.placeholder.com/400x400?text=Project+3" alt="AI Tutor">
   </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/133A.png" alt="133A">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/133B.png" alt="133B">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/ERNIE.png" alt="ERNIE">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/ARM_JOINT.jpg" alt="Arm Joint">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/GEARBOX.jpeg" alt="Gearbox">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/PET_TOY.png" alt="Pet toy">
-  </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/EARTHQuAKE.jpg" alt="Pet toy">
+  <a href="/projects/smart-home-dashboard/" class="project-image-link">
+    <img src="https://via.placeholder.com/400x400?text=Project+4" alt="Smart Home Dashboard">
   </a>
 </div>
 
