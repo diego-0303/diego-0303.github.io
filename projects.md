@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: description
 title: Projects
 permalink: /projects/
 ---
@@ -7,18 +7,34 @@ permalink: /projects/
 # Projects
 
 <div class="projects-grid">
-  <a href="/projects/robotic-arm/" class="project-image-link">
-    <img src="LARY1.jpeg" alt="Robotic Arm Project">
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
   </a>
-  <a href="/projects/portfolio-website/" class="project-image-link">
-    <img src="https://via.placeholder.com/400x400?text=Project+2" alt="Portfolio Website">
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/FLYING_CARPET.jpeg" alt="Flying Carpet">
   </a>
-  <a href="/projects/ai-tutor/" class="project-image-link">
-    <img src="https://via.placeholder.com/400x400?text=Project+3" alt="AI Tutor">
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/SHUTTLEBOT.jpeg" alt="Shuttle Bot">
   </a>
-  <a href="/projects/smart-home-dashboard/" class="project-image-link">
-    <img src="https://via.placeholder.com/400x400?text=Project+4" alt="Smart Home Dashboard">
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/133A.jpeg" alt="133A">
   </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/133B.jpeg" alt="133B">
+  </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/ERNIE.jpeg" alt="ERNIE">
+  </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/ARM_JOINT.jpeg" alt="Arm Joint">
+  </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/GEARBOX" alt="Gearbox">
+  </a>
+  <a href="#" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/PET_TOY" alt="Pet toy">
+  </a>
+  
 </div>
 
 <style>
