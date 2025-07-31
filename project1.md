@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robotic Arm Project
-permalink: /projects/robotic-arm/
+permalink: /projects/LARY/
 ---
 
 # Robotic Arm Project

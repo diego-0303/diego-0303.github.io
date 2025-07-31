@@ -7,7 +7,7 @@ permalink: /projects/
 # Projects
 # Projects
 <div class="projects-grid">
-  <a href="#" class="https://diego-0303.github.io/giving.md">
+  <a href="#" class="https://diego-0303.github.io/projects/LARY">
     <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
   </a>
   <a href="#" class="project-image-link">
