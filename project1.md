@@ -5,6 +5,8 @@ permalink: /projects/LARY/
 ---
 
 <div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
+  <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="LARY Autonomous Robot" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  
   <h2 style="font-size: 28px; margin-bottom: 10px;">LARY: Autonomous Pac-Man Robot</h2>
   <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech ME/CS/EE 133a: Mobile Robots</h3>
   
