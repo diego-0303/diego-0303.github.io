@@ -5,7 +5,66 @@ permalink: /projects/LARY/
 ---
 
 <div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
-  <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="LARY Autonomous Robot" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  
+  <!-- LARY Image Carousel -->
+  <div class="carousel-container" style="max-width: 600px; margin: 20px auto; position: relative;">
+    <div class="carousel-track" style="display: flex; transition: transform 0.5s ease-in-out;">
+      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+        <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="LARY Autonomous Robot - View 1" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      </div>
+      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+        <img src="https://diego-0303.github.io/images/LARY2.jpeg" alt="LARY Autonomous Robot - View 2" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      </div>
+      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+        <img src="https://diego-0303.github.io/images/LARY3.jpeg" alt="LARY Autonomous Robot - View 3" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      </div>
+    </div>
+    
+    <!-- Navigation Buttons -->
+    <button class="carousel-btn prev" onclick="changeSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">‹</button>
+    <button class="carousel-btn next" onclick="changeSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">›</button>
+    
+    <!-- Dots Indicator -->
+    <div class="carousel-dots" style="display: flex; justify-content: center; margin-top: 15px; gap: 8px;">
+      <span class="dot active" onclick="currentSlide(1)" style="width: 12px; height: 12px; border-radius: 50%; background: #007bff; cursor: pointer; transition: background 0.3s;"></span>
+      <span class="dot" onclick="currentSlide(2)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
+      <span class="dot" onclick="currentSlide(3)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
+    </div>
+  </div>
+
+  <script>
+    let currentSlideIndex = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.dot');
+    const track = document.querySelector('.carousel-track');
+
+    function showSlide(index) {
+      if (index >= slides.length) currentSlideIndex = 0;
+      if (index < 0) currentSlideIndex = slides.length - 1;
+      
+      track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+      
+      // Update dots
+      dots.forEach((dot, i) => {
+        dot.style.background = i === currentSlideIndex ? '#007bff' : '#ccc';
+      });
+    }
+
+    function changeSlide(direction) {
+      currentSlideIndex += direction;
+      showSlide(currentSlideIndex);
+    }
+
+    function currentSlide(index) {
+      currentSlideIndex = index - 1;
+      showSlide(currentSlideIndex);
+    }
+
+    // Auto-advance slides every 4 seconds
+    setInterval(() => {
+      changeSlide(1);
+    }, 4000);
+  </script>
   
   <h2 style="font-size: 28px; margin-bottom: 10px;">LARY: Autonomous Pac-Man Robot</h2>
   <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech ME/CS/EE 133a: Mobile Robots</h3>
