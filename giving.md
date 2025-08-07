@@ -1,5 +1,5 @@
 ---
-layout: description
+layout: page
 title: Giving
 permalink: /giving/
 ---

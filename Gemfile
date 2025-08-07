@@ -2,14 +2,18 @@
 
 source "https://rubygems.org"
 
+# Add rexml gem for compatibility
+gem "rexml"
+gem "webrick"
+
 gem "jekyll-seo-tag"
 gem "jekyll-feed"
 gem "jekyll-sitemap"
 gem "jekyll-paginate-v2"
-gem "jekyll-minifier"
-gem "jekyll-assets"
-gem "sprockets", "~> 3.7"
-gem "autoprefixer-rails"
+# gem "jekyll-minifier"
+# gem "jekyll-assets"
+# gem "sprockets", "~> 3.7"
+# gem "autoprefixer-rails"
 gem "jemoji"
 
 gemspec

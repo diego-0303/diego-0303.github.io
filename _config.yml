@@ -7,10 +7,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
-  - jekyll-minifier
-  - jekyll-assets
-  - sprockets
-  - autoprefixer-rails
+  # - jekyll-minifier
+  # - jekyll-assets
+  # - sprockets
+  # - autoprefixer-rails
   - jemoji
 
 ############################################################

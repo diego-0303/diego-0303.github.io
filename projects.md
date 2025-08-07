@@ -1,5 +1,5 @@
 ---
-layout: description
+layout: page
 title: Projects
 permalink: /projects/
 ---
@@ -28,7 +28,6 @@ permalink: /projects/
   </ul>
 </div>
 
-# Projects
 <div class="projects-grid">
   <a href="/projects/LARY/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
