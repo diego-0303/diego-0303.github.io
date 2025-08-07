@@ -66,7 +66,7 @@ permalink: /projects/LARY/
     }, 4000);
   </script>
   
-  <h2 style="font-size: 28px; margin-bottom: 10px;">LARY: Autonomous Pac-Man Robot</h2>
+  <h2 style="font-size: 28px; margin-bottom: 10px;">LARY: LiDAR Assisted Robot for You</h2>
   <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech ME/CS/EE 133a: Mobile Robots</h3>
   
   <p>
