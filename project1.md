@@ -4,43 +4,12 @@ title: Robotic Arm Project
 permalink: /projects/LARY/
 ---
 
-# Robotic Arm Project
+Caltech ME/CS/EE 133a: Mobile Robots
 
-![Robotic Arm](../LARY1.jpeg)
+LARY is a fully autonomous mobile robot I built as part of Caltech’s capstone robotics course, designed to integrate key concepts in localization, planning, navigation, and mapping using the Robot Operating System (ROS). Working in a team of two, I assembled the robot from scratch, outfitted it with encoders, a gyroscope, and a lidar sensor, and implemented the full software stack required to operate it autonomously in real-world conditions.
 
-## Overview
-Designed and built a 6-DOF robotic arm for my senior engineering capstone project. This project demonstrates advanced mechanical design, custom electronics integration, and sophisticated control software development.
+Throughout the course, I programmed LARY to perform odometry, fuse sensor data for robust heading estimation, and localize on a known map while rejecting noise and outliers. I developed planning and control algorithms for collision-free navigation and incorporated online mapping to detect and avoid unknown obstacles. All algorithms were built and tested within the ROS framework, with extensive debugging and validation in hardware.
 
-## Project Details
-The robotic arm features six degrees of freedom, allowing for complex movements and precise positioning. The system includes custom-designed mechanical components, integrated sensors for position feedback, and a Python-based control interface.
+As a final challenge, LARY competed in a class-wide Pac-Man-inspired competition. The robot had to autonomously navigate a maze, collect tokens, and interact with dynamic agents simulating ghosts. LARY successfully completed all course requirements and placed 4th in the competition, demonstrating strong performance in autonomous decision-making, real-time navigation, and reactive behavior in a dynamic environment.
 
-## My Role
-- **Mechanical Design**: Created detailed CAD models and engineering drawings
-- **Electronics Integration**: Designed custom PCB for motor control and sensor integration
-- **Software Development**: Built Python control software with real-time position tracking
-- **System Integration**: Coordinated all subsystems for seamless operation
-
-## Technologies Used
-- **Mechanical**: SolidWorks, 3D Printing, CNC Machining
-- **Electronics**: Arduino, Custom PCB Design, Motor Drivers
-- **Software**: Python, ROS (Robot Operating System), PID Control
-- **Tools**: Git, Jupyter Notebooks, Oscilloscope
-
-## Key Features
-- 6-DOF movement capability
-- Real-time position feedback
-- Custom control interface
-- Modular design for easy maintenance
-- Safety interlocks and emergency stop functionality
-
-## Results
-Successfully completed the capstone project with a fully functional robotic arm that can perform complex pick-and-place operations with sub-millimeter precision.
-
-## Links
-- [GitHub Repository](https://github.com/yourusername/robotic-arm)
-- [Project Documentation](https://docs.google.com/...)
-- [Demo Video](https://youtube.com/...)
-
----
-
-*This project was completed as part of my senior engineering capstone at [Your University].* 
+This project solidified my skills in ROS, sensor fusion, autonomous navigation, and hardware-software integration under real-world constraints.
