@@ -10,6 +10,7 @@ permalink: /projects/
   <a href="/projects/LARY/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="Project 1">
   </a>
+  <!-- 
   <a href="#" class="project-image-link">
     <img src="https://diego-0303.github.io/images/FLYING_CARPET.jpeg" alt="Flying Carpet">
   </a>
@@ -34,7 +35,7 @@ permalink: /projects/
   <a href="#" class="project-image-link">
     <img src="https://diego-0303.github.io/images/PET_TOY.png" alt="Pet toy">
   </a>
-  
+  -->
 </div>
 
 <style>
