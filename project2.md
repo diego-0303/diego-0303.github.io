@@ -89,22 +89,18 @@ permalink: /projects/flying-carpet/
 </script>
 
 <div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
-  <h2 style="font-size: 28px; margin-bottom: 10px;">Flying Carpet: Aerodynamic Research Project</h2>
-  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech SURF 2024 - Gharib Research Group</h3>
-  
+  <h2 style="font-size: 28px; margin-bottom: 10px;">Biomimetic Flexible Drone</h2>
+  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech (Gharib Research Group)</h3>
+
   <p>
-    As part of my two-year research experience with the Gharib Research Group at Caltech, I conducted extensive aerodynamic research on a novel "flying carpet" concept. This project, which became my primary contribution and favorite research endeavor, focused on understanding the complex fluid dynamics and aerodynamic principles behind levitating objects through controlled air flow.
+    I led all mechanical design efforts for a biomimetic flexible drone capable of multimodal flight, i.e. flapping, gliding, and parachuting. Working under the supervision of a PhD student, I developed the structural components and integrated them with actuation systems to enable movements inspired by natural biological systems such as birds and jellyfish.
   </p>
 
   <p>
-    The research involved designing and testing various configurations to achieve stable levitation and controlled movement of flat objects using carefully engineered air flow patterns. I worked extensively with experimental setups, data collection, and analysis to understand the fundamental physics behind this fascinating aerodynamic phenomenon.
+    We experimented with different mechanical design strategies and control system setups and tunings to attempt to replicate stable flight modes predicted by control theory. This required fast, iterative work, with rapid prototyping, testing, and refinement to assess how each design or tuning change affected flight performance. The process demanded tight integration between hardware development and control system implementation to explore the relationship between physical design choices and stability in flight.
   </p>
 
   <p>
-    Throughout the project, I developed expertise in fluid dynamics, experimental design, and data analysis. The work required careful attention to detail in both the experimental setup and the theoretical understanding of the underlying physics. This research experience significantly enhanced my understanding of aerodynamics and experimental methods in mechanical engineering.
+    Through this work, I gained experience in end-to-end mechanical design, hardware fabrication, and control system evaluation for aerial robotics. The project is still ongoing in the lab since my graduation, with great progress continuing to be made on this concept.
   </p>
-
-  <p>
-    The project culminated in a comprehensive final report that documented our findings, experimental methodology, and theoretical framework. This research represents one of my most significant contributions during my time at Caltech and demonstrates my ability to tackle complex engineering challenges through systematic research and experimentation.
-  </p>
-</div> 
+</div>

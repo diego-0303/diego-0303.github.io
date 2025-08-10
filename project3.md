@@ -1,57 +1,110 @@
 ---
 layout: page
-title: AI Tutor Application
-permalink: /projects/ai-tutor/
+title: Shuttle Bot
+permalink: /projects/shuttlebot/
 ---
 
-# AI Tutor Application
+<!-- Navigation Header -->
+<div class="nav-link" style="width: 100%; padding: 20px 0; display: flex; justify-content: center; border-bottom: 2px solid var(--primary-text-color); margin-bottom: 30px;">
+  <ul style="display: flex; gap: 20px; padding: 0; list-style: none; margin: 0;">
+    <li style="display: inline;">
+      <a href="/" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">Home</a>
+    </li>
+    <li style="display: inline;">
+      <a href="/about/" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">About</a>
+    </li>
+    <li style="display: inline;">
+      <a href="/projects/" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">Projects</a>
+    </li>
+    <li style="display: inline;">
+      <a href="/blog/" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">Blog</a>
+    </li>
+    <li style="display: inline;">
+      <a href="/DG_Resume.pdf" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">Resume</a>
+    </li>
+    <li style="display: inline;">
+      <a href="/giving/" style="text-decoration: none; color: var(--primary-text-color); padding: 5px 10px; border-radius: 4px; transition: background-color 0.2s;">Giving</a>
+    </li>
+  </ul>
+</div>
 
-![AI Tutor](https://via.placeholder.com/800x400?text=AI+Tutor+App)
+<!-- Shuttle Bot Image Carousel -->
+<div class="carousel-container" style="max-width: 600px; margin: 20px auto; position: relative;">
+  <div class="carousel-track" style="display: flex; transition: transform 0.5s ease-in-out;">
+    <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+      <img src="https://diego-0303.github.io/images/SHUTTLEBOT.JPG" alt="Shuttle Bot - View 1" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    </div>
+    <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+      <img src="https://diego-0303.github.io/images/SHUTTLE_BOT2.jpeg" alt="Shuttle Bot - View 2" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    </div>
+    <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
+      <img src="https://diego-0303.github.io/images/SHUTTLE_BOT3.jpeg" alt="Shuttle Bot - View 3" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    </div>
+  </div>
+  
+  <!-- Navigation Buttons -->
+  <button class="carousel-btn prev" onclick="changeSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">‹</button>
+  <button class="carousel-btn next" onclick="changeSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">›</button>
+  
+  <!-- Dots Indicator -->
+  <div class="carousel-dots" style="display: flex; justify-content: center; margin-top: 15px; gap: 8px;">
+    <span class="dot active" onclick="currentSlide(1)" style="width: 12px; height: 12px; border-radius: 50%; background: #007bff; cursor: pointer; transition: background 0.3s;"></span>
+    <span class="dot" onclick="currentSlide(2)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
+    <span class="dot" onclick="currentSlide(3)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
+  </div>
+</div>
 
-## Overview
-Developed an AI-powered tutoring application designed to help students with math and science homework. The app leverages GPT-4 technology to provide personalized, step-by-step explanations and interactive learning experiences.
+<script>
+  let currentSlideIndex = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dots = document.querySelectorAll('.dot');
+  const track = document.querySelector('.carousel-track');
 
-## Project Details
-This mobile application combines advanced AI capabilities with intuitive user interface design to create an effective learning tool. The system can handle complex mathematical problems, provide detailed explanations, and adapt to individual learning styles.
+  function showSlide(index) {
+    if (index >= slides.length) currentSlideIndex = 0;
+    if (index < 0) currentSlideIndex = slides.length - 1;
+    
+    track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+    
+    // Update dots
+    dots.forEach((dot, i) => {
+      dot.style.background = i === currentSlideIndex ? '#007bff' : '#ccc';
+    });
+  }
 
-## My Role
-- **Full-Stack Development**: Built both frontend and backend components
-- **AI Integration**: Implemented GPT-4 API integration and prompt engineering
-- **Mobile Development**: Created responsive React Native application
-- **User Experience**: Designed intuitive interface for students and educators
-- **Testing & Deployment**: Managed testing pipeline and app store deployment
+  function changeSlide(direction) {
+    currentSlideIndex += direction;
+    showSlide(currentSlideIndex);
+  }
 
-## Technologies Used
-- **Frontend**: React Native, JavaScript, CSS
-- **Backend**: Node.js, Express.js, MongoDB
-- **AI/ML**: OpenAI GPT-4 API, Custom prompt engineering
-- **Authentication**: JWT, OAuth integration
-- **Deployment**: AWS, App Store, Google Play Store
-- **Tools**: Git, VS Code, Postman, MongoDB Compass
+  function currentSlide(index) {
+    currentSlideIndex = index - 1;
+    showSlide(currentSlideIndex);
+  }
 
-## Key Features
-- **Intelligent Problem Solving**: AI-powered step-by-step explanations
-- **Subject Coverage**: Math, Physics, Chemistry, Biology
-- **Interactive Learning**: Practice problems with instant feedback
-- **Progress Tracking**: Student performance analytics and progress reports
-- **Multi-platform**: iOS and Android compatibility
-- **Offline Capability**: Core features available without internet
+  // Auto-advance slides every 4 seconds
+  setInterval(() => {
+    changeSlide(1);
+  }, 4000);
+</script>
 
-## Technical Challenges
-- **API Rate Limiting**: Implemented efficient caching and request management
-- **Response Quality**: Developed sophisticated prompt engineering for consistent, educational responses
-- **Performance**: Optimized app performance for smooth user experience
-- **Security**: Implemented robust authentication and data protection
+<div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
+  <h2 style="font-size: 28px; margin-bottom: 10px;">Shuttle Bot: Lunar Infrastructure Robot</h2>
+  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech CS/ME/EE 125 Design Capstone Project</h3>
+  
+  <p>
+    As part of my design capstone at Caltech (CS/ME/EE 125), I worked with a team of three people to develop a comprehensive systems engineering project focused on lunar infrastructure development. The first half of the year was dedicated to systems engineering, during which we developed a CONOPS (Concept of Operations) for an existing robot that was a previous finalist in the NASA Big Idea Challenge.
+  </p>
 
-## Results
-Successfully launched the application with positive user feedback and measurable learning outcomes. The app has helped thousands of students improve their understanding of complex subjects.
+  <p>
+    Our CONOPS described an ambitious mission where a shuttle bot, designed to operate on a cable system, would be sent to the moon to serve as the hypothetical infrastructure for setting up a lunar base inside a crater. The project's primary goal was to demonstrate a small-scale prototype that could validate our conceptual design and operational approach.
+  </p>
 
-## Links
-- [GitHub Repository](https://github.com/yourusername/ai-tutor)
-- [App Store](https://apps.apple.com/...)
-- [Google Play Store](https://play.google.com/...)
-- [Demo Video](https://youtube.com/...)
+  <p>
+    We used a pre-existing teleoperated robot as our starting platform and made significant hardware upgrades to transform it into a closed-loop autonomous system. The robot was equipped with LiDAR sensors and normal cameras to enable autonomous movement along the cable system and autonomous payload traversal capabilities. This required integrating multiple sensor systems, developing control algorithms, and implementing robust navigation software.
+  </p>
 
----
-
-*This project demonstrates my ability to integrate cutting-edge AI technology with practical educational applications.* 
+  <p>
+    The project demonstrated the complexity of systems engineering in space applications, requiring careful consideration of reliability, redundancy, and autonomous operation in challenging environments. Through this work, I gained valuable experience in robotics, autonomous systems, and the practical application of systems engineering principles to real-world aerospace challenges.
+  </p>
+</div> 

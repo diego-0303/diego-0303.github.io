@@ -35,10 +35,10 @@ permalink: /projects/
   <a href="/projects/flying-carpet/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/FLYING_CARPET1.jpeg" alt="Flying Carpet">
   </a>
-  <!-- 
-  <a href="#" class="project-image-link">
+  <a href="/projects/shuttlebot/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/SHUTTLEBOT.JPG" alt="Shuttle Bot">
   </a>
+  <!-- 
   <a href="#" class="project-image-link">
     <img src="https://diego-0303.github.io/images/133A.png" alt="133A">
   </a>
