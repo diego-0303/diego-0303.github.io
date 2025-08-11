@@ -47,11 +47,9 @@ permalink: /projects/
   <a href="/projects/gearbox/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/GEARBOX.jpeg" alt="Gearbox">
   </a>
-  <!--
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/PET_TOY.png" alt="Pet toy">
+  <a href="/projects/earthquake/" class="project-image-link">
+    <img src="https://diego-0303.github.io/images/EARTHQuAKE.jpg" alt="Earthquakes">
   </a>
-  -->
 </div>
 
 <style>
