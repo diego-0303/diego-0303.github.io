@@ -38,16 +38,13 @@ permalink: /projects/
   <a href="/projects/shuttlebot/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/SHUTTLEBOT.JPG" alt="Shuttle Bot">
   </a>
-  <!-- 
-  <a href="#" class="project-image-link">
+  <a href="/projects/ME133A/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/133A.png" alt="133A">
   </a>
-  <a href="#" class="project-image-link">
-    <img src="https://diego-0303.github.io/images/133B.png" alt="133B">
-  </a>
-  <a href="#" class="project-image-link">
+  <a href="/projects/" class="project-image-link">
     <img src="https://diego-0303.github.io/images/ERNIE.png" alt="ERNIE">
   </a>
+  <!--
   <a href="#" class="project-image-link">
     <img src="https://diego-0303.github.io/images/ARM_JOINT.jpg" alt="Arm Joint">
   </a>
