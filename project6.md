@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ERNIE Rover Project
-permalink: /projects/ERNIE/
+title: Gearbox Transmission Project
+permalink: /projects/gearbox/
 ---
 
 <!-- Navigation Header -->
@@ -28,17 +28,11 @@ permalink: /projects/ERNIE/
   </ul>
 </div>
 
-<!-- ERNIE Rover Project Images Carousel -->
+<!-- Gearbox Transmission Project Images Carousel -->
 <div class="carousel-container" style="max-width: 600px; margin: 20px auto; position: relative;">
   <div class="carousel-track" style="display: flex; transition: transform 0.5s ease-in-out;">
     <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-      <img src="https://diego-0303.github.io/images/ERNIE.png" alt="ERNIE Rover - Version 1" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    </div>
-    <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-      <img src="https://diego-0303.github.io/images/ERNIE2.jpeg" alt="ERNIE Rover - Version 2" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    </div>
-    <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-      <img src="https://diego-0303.github.io/images/ARM_JOINT.jpg" alt="Robotic Arm Joint Design" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <img src="https://diego-0303.github.io/images/GEARBOX.jpeg" alt="Gearbox Transmission Design" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     </div>
   </div>
   
@@ -49,8 +43,6 @@ permalink: /projects/ERNIE/
   <!-- Dots Indicator -->
   <div class="carousel-dots" style="display: flex; justify-content: center; margin-top: 15px; gap: 8px;">
     <span class="dot active" onclick="currentSlide(1)" style="width: 12px; height: 12px; border-radius: 50%; background: #007bff; cursor: pointer; transition: background 0.3s;"></span>
-    <span class="dot" onclick="currentSlide(2)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
-    <span class="dot" onclick="currentSlide(3)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
   </div>
 </div>
 
@@ -89,26 +81,26 @@ permalink: /projects/ERNIE/
 </script>
 
 <div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
-  <h2 style="font-size: 28px; margin-bottom: 10px;">ERNIE</h2>
-  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech CRATER Team Project</h3>
+  <h2 style="font-size: 28px; margin-bottom: 10px;">Transmission Design and Fabrication Project</h2>
+  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech ME14 Course Project</h3>
   
   <p>
-    This rover project, dubbed ERNIE, was my first experience in college of participating in an engineering project team, and I was incredibly excited to build something with other people. This project was part of the Caltech Rover, Autonomy, Technology and Research (CRATER) team, where I had the opportunity to contribute to the mechanical design, analysis, and fabrication of many critical components.
+    The final leg of course modules in ME14 involved team-based design projects, and one of the most exciting was the Transmission Design and Fabrication Project. This project has been a staple of the course for decades, giving students hands-on experience with mechanical transmission design and manufacturing.
   </p>
 
   <p>
-    My role focused on several key mechanical systems of the rover, including the robotic arm and suspension system. I also contributed to chassis design and fabrication, gaining hands-on experience with real engineering challenges. This project showed me the importance of working as part of a cohesive team and the value of seeing a project through multiple iterations and versions, hence the two images showcasing the evolution of our design.
+    Working with a modest budget of $150 to $200 per team, we had about 2 to 3 weeks to propose and design a small mechanical transmission according to specified constraints and physical dimensions. This project really brought together all the fundamental background we had spent weeks learning about the design and functionality of such devices.
   </p>
 
   <p>
-    One of the most exciting subsystems I worked on was the rocker bogie suspension system, which has heritage from one of the JPL rovers just down the road from us. This suspension design allows the rover to maintain stability while traversing rough terrain, making it perfect for the challenging environments we'd encounter in competition. I also led much of the mechanical design for the 6-DOF robotic arm, creating custom joints like the one shown in the third image that satisfied the torque requirements needed to lift the payload required by the competitions.
+    The project was a fantastic opportunity to apply theoretical knowledge to practical design challenges. We had to consider gear ratios, power transmission efficiency, material selection, and manufacturing constraints, all while working within tight dimensional specifications. The team-based approach meant we could leverage different strengths and perspectives to create the best possible design.
   </p>
 
   <p>
-    The rover was specifically designed to satisfy the rigorous requirements presented by rover competitions such as the Canadian International Rover Challenge (CIRC) and the University Rover Challenge (URC). These competitions test the rover's capabilities in autonomous navigation, scientific sample collection, equipment servicing, and extreme terrain traversal, all while operating in Mars-like environments.
+    One of the most valuable aspects was getting hands-on experience in the machine shop. Even though it had been a while since some of us had used the equipment, the shop staff and TAs were incredibly helpful in guiding us through the fabrication process. This project really demonstrated how classroom theory translates into real-world engineering challenges and the importance of practical manufacturing knowledge.
   </p>
 
   <p>
-    Through this project, I gained invaluable experience in mechanical design, fabrication techniques, and most importantly, collaborative engineering. Working on ERNIE taught me how to balance technical requirements with practical constraints, how to iterate on designs based on testing feedback, and how to communicate effectively within a multidisciplinary team. The project's evolution from initial concept to competition-ready rover demonstrated the iterative nature of engineering and the importance of perseverance in complex projects.
+    Through this project, I gained a deeper understanding of mechanical transmission systems, learned to work effectively in a design team, and developed practical skills in both design analysis and fabrication. The experience of taking a design from concept to physical prototype was incredibly rewarding and gave me confidence in my ability to tackle complex mechanical engineering challenges.
   </p>
 </div> 
