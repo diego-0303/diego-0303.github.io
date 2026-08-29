@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robotic Arm Project
+title: LARY Autonomous Robot
 permalink: /projects/LARY/
 ---
 
@@ -9,82 +9,36 @@ permalink: /projects/LARY/
   {% include navigation.html %}
 </div>
 
-<div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
-  
-  <!-- LARY Image Carousel -->
-  <div class="carousel-container" style="max-width: 600px; margin: 20px auto; position: relative;">
-    <div class="carousel-track" style="display: flex; transition: transform 0.5s ease-in-out;">
-      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-        <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="LARY Autonomous Robot - View 1" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-      </div>
-      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-        <img src="https://diego-0303.github.io/images/LARY2.jpeg" alt="LARY Autonomous Robot - View 2" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-      </div>
-      <div class="carousel-slide" style="min-width: 100%; display: flex; justify-content: center;">
-        <img src="https://diego-0303.github.io/images/LARY3.jpeg" alt="LARY Autonomous Robot - View 3" style="width: 400px; height: 400px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-      </div>
-    </div>
-    
-    <!-- Navigation Buttons -->
-    <button class="carousel-btn prev" onclick="changeSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">‹</button>
-    <button class="carousel-btn next" onclick="changeSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.8); border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">›</button>
-    
-    <!-- Dots Indicator -->
-    <div class="carousel-dots" style="display: flex; justify-content: center; margin-top: 15px; gap: 8px;">
-      <span class="dot active" onclick="currentSlide(1)" style="width: 12px; height: 12px; border-radius: 50%; background: #007bff; cursor: pointer; transition: background 0.3s;"></span>
-      <span class="dot" onclick="currentSlide(2)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
-      <span class="dot" onclick="currentSlide(3)" style="width: 12px; height: 12px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s;"></span>
-    </div>
-  </div>
-
-  <script>
-    let currentSlideIndex = 0;
-    const slides = document.querySelectorAll('.carousel-slide');
-    const dots = document.querySelectorAll('.dot');
-    const track = document.querySelector('.carousel-track');
-
-    function showSlide(index) {
-      if (index >= slides.length) currentSlideIndex = 0;
-      if (index < 0) currentSlideIndex = slides.length - 1;
-      
-      track.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
-      
-      // Update dots
-      dots.forEach((dot, i) => {
-        dot.style.background = i === currentSlideIndex ? '#007bff' : '#ccc';
-      });
-    }
-
-    function changeSlide(direction) {
-      currentSlideIndex += direction;
-      showSlide(currentSlideIndex);
-    }
-
-    function currentSlide(index) {
-      currentSlideIndex = index - 1;
-      showSlide(currentSlideIndex);
-    }
-
-    // Auto-advance slides every 4 seconds
-    setInterval(() => {
-      changeSlide(1);
-    }, 4000);
-  </script>
-  
-  <h2 style="font-size: 28px; margin-bottom: 10px;">LARY: LiDAR Assisted Robot for You</h2>
-  <h3 style="font-size: 18px; color: #666; margin-top: 0;">Caltech ME/CS/EE 133a: Mobile Robots</h3>
+<div style="max-width: 760px; margin: 40px auto; font-family: inherit; line-height: 1.7; padding: 0 15px;">
+  <h2 style="font-size: 2rem; margin-bottom: 8px;">LARY: LiDAR Assisted Robot for You</h2>
+  <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 30px;">Caltech ME/CS/EE 133a: Mobile Robots</h3>
   
   <p>
     LARY is a fully autonomous mobile robot I built as part of Caltech’s capstone robotics course, designed to integrate key concepts in localization, planning, navigation, and mapping using the Robot Operating System (ROS). Working in a team of two, I assembled the robot from scratch, outfitted it with encoders, a gyroscope, and a lidar sensor, and implemented the full software stack required to operate it autonomously in real-world conditions.
   </p>
 
+  <figure style="margin: 35px 0; text-align: center;">
+    <img src="https://diego-0303.github.io/images/LARY1.jpeg" alt="LARY Autonomous Robot Platform" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+    <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 1: LARY autonomous mobile robot platform configured with LiDAR sensor, wheel encoders, and onboard power distribution.</figcaption>
+  </figure>
+
   <p>
     Throughout the course, I programmed LARY to perform odometry, fuse sensor data for robust heading estimation, and localize on a known map while rejecting noise and outliers. I developed planning and control algorithms for collision-free navigation and incorporated online mapping to detect and avoid unknown obstacles. All algorithms were built and tested within the ROS framework, with extensive debugging and validation in hardware.
   </p>
 
+  <figure style="margin: 35px 0; text-align: center;">
+    <img src="https://diego-0303.github.io/images/LARY2.jpeg" alt="LARY Hardware and Sensor Setup" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+    <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 2: Close-up of internal electronics stack, motor drivers, and Raspberry Pi compute unit.</figcaption>
+  </figure>
+
   <p>
     As a final challenge, LARY competed in a class-wide Pac-Man-inspired competition. The robot had to autonomously navigate a maze, collect tokens, and interact with dynamic agents simulating ghosts. LARY successfully completed all course requirements and placed 4th in the competition, demonstrating strong performance in autonomous decision-making, real-time navigation, and reactive behavior in a dynamic environment.
   </p>
+
+  <figure style="margin: 35px 0; text-align: center;">
+    <img src="https://diego-0303.github.io/images/LARY3.jpeg" alt="LARY Maze Competition Setup" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+    <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 3: Testing LARY's real-time mapping and path planning in the maze environment.</figcaption>
+  </figure>
 
   <p>
     This project solidified my skills in ROS, sensor fusion, autonomous navigation, and hardware-software integration under real-world constraints.

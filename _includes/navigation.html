@@ -6,35 +6,19 @@
         </a>
       </li>
       {% endunless %}
-      {% comment %}
       <li>
-        <a href = "{{ 'about/' | relative_url }}">
-          About
+        <a href = "{{ 'writing/' | relative_url }}">
+          Writing
         </a>
       </li>
-      {% endcomment %}
       <li>
         <a href = "{{ 'projects/' | relative_url }}">
           Projects
         </a>
       </li>
-      {% comment %}
-      <li>
-        <a href = "{{ 'blog/' | relative_url }}">
-          Blog
-        </a>
-      </li>
-      {% endcomment %}
       <li>
         <a href = "{{ site.resume_url | relative_url }}">
           Resume
         </a>
       </li>
-      {% comment %}
-      <li>
-        <a href = "{{ 'giving/' | relative_url }}">
-          Giving
-        </a>
-      </li>
-      {% endcomment %}
 </ul>
