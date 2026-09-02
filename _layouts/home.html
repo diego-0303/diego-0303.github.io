@@ -2,16 +2,17 @@
 title: Diego Garcia
 layout: default
 ---
+<div class="nav-link site-nav">
+    {% include navigation.html %}
+</div>
+
 <div class="mid-section-home">
     <h1><span>Hi, I'm </span>{{ site.author_name }}</h1>
     <div class="row sub-heading">
-        <!--
-        <div class="summary-about-me">
-            <p>{{ page.home_text }}</p>
-        </div>
-        -->
-        <div class="nav-link">
-            {% include navigation.html %}
+        <div class="home-blurb">
+            <p>I'm a mechanical engineer with experience in robotics and aerospace/marine hardware. Below you will find a selection of projects I have worked on.</p>
         </div>
     </div>
 </div>
+
+{{ content }}

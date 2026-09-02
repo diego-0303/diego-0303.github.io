@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <!-- Navigation Header -->
-<div class="nav-link" style="width: 100%; padding: 20px 0; display: flex; justify-content: center; border-bottom: 2px solid var(--primary-text-color); margin-bottom: 30px;">
+<div class="nav-link site-nav">
   {% include navigation.html %}
 </div>
 
