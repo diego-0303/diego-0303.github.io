@@ -4,11 +4,6 @@ title: Giving
 permalink: /giving/
 ---
 
-<!-- Navigation Header -->
-<div class="nav-link site-nav">
-  {% include navigation.html %}
-</div>
-
 <div style="max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif; line-height: 1.6;">
   
   

@@ -4,11 +4,6 @@ title: ME133A & ME133B
 permalink: /projects/ME133A/
 ---
 
-<!-- Navigation Header -->
-<div class="nav-link site-nav">
-  {% include navigation.html %}
-</div>
-
 <div style="max-width: 760px; margin: 40px auto; font-family: inherit; line-height: 1.7; padding: 0 15px;">
   <h2 style="font-size: 2rem; margin-bottom: 8px;">ME133A/ME133B: Robotics Kinematics & Path Planning</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 30px;">Caltech ME133A & ME133B Course Projects</h3>

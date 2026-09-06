@@ -4,11 +4,6 @@ title: Writing
 permalink: /writing/
 ---
 
-<!-- Navigation Header -->
-<div class="nav-link site-nav">
-  {% include navigation.html %}
-</div>
-
 <div class="blog-feed-container" style="margin-top: 40px;">
   <article class="feed-item">
     <div class="feed-meta">

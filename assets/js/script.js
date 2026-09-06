@@ -71,3 +71,41 @@ function updateThemeIcon(themeName) {
     ? getSwitchOffSVG(fillColor)
     : getSwitchOnSVG(fillColor);
 }
+
+// Hide the header on scroll down, reveal it again on scroll up.
+// Tracks accumulated movement in one direction (rather than frame-to-frame
+// delta) so inertial/trackpad scroll jitter doesn't flicker the header.
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+  const threshold = 10;
+  let lastScrollY = window.scrollY;
+  let accumulated = 0;
+  let ticking = false;
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        const currentScrollY = Math.max(window.scrollY, 0);
+        const delta = currentScrollY - lastScrollY;
+
+        if (Math.sign(delta) === Math.sign(accumulated)) {
+          accumulated += delta;
+        } else {
+          accumulated = delta;
+        }
+
+        if (currentScrollY < 60) {
+          siteHeader.classList.remove('site-header--hidden');
+        } else if (accumulated > threshold) {
+          siteHeader.classList.add('site-header--hidden');
+        } else if (accumulated < -threshold) {
+          siteHeader.classList.remove('site-header--hidden');
+        }
+
+        lastScrollY = currentScrollY;
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+}
