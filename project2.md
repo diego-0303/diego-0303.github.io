@@ -12,14 +12,14 @@ permalink: /projects/flying-carpet/
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Mechanical design lead: structure, motor/propeller sizing, and electronics integration, under PI Mory Gharib and graduate student advisor Ioannis Mandralis</span>
       <strong>Team</strong><span>Solo SURF Fellow, with a PI and a graduate student advisor</span>
-      <strong>Duration</strong><span>10-week Howell N. Tyson, Sr. SURF Fellowship, continuing on and off afterward until graduation</span>
+      <strong>Duration</strong><span>10-week Howell N. Tyson, Sr. SURF Fellowship, with continued involvement through graduation</span>
       <strong>Stack</strong><span>SolidWorks and Onshape, 3D-printed PLA, machined polycarbonate and laser-cut mylar, BetaFlight, brushless motors + 4-in-1 ESC</span>
       <strong>Outcome</strong><span>Indoor lift-off tests achieved; later work moved to a constrained test rig with motion-capture cameras for controlled data collection</span>
     </div>
   </div>
 
   <p>
-    I spent a summer, and time on and off afterward, as a SURF Fellow in Caltech's Gharib Research Group (GALCIT) designing a biomimetic flexible drone nicknamed the "Flying Carpet." The idea: most drones are rigid, but animals that fly or swim efficiently, jellyfish contracting their bell, birds flexing their wings, use flexible bodies to their advantage. The project asks whether embedding rotors directly into a flexible airframe can unlock similar benefits: multimodal flight combining hovering, flapping, and shape deformation, plus potential gains in efficiency, obstacle resilience, and crash tolerance.
+    As a SURF Fellow in Caltech's Gharib Research Group (GALCIT), I spent a summer, and remained involved afterward, designing a biomimetic flexible drone nicknamed the "Flying Carpet." The idea: most drones are rigid, but animals that fly or swim efficiently, jellyfish contracting their bell, birds flexing their wings, use flexible bodies to their advantage. The project asks whether embedding rotors directly into a flexible airframe can unlock similar benefits: multimodal flight combining hovering, flapping, and shape deformation, plus potential gains in efficiency, obstacle resilience, and crash tolerance.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
@@ -32,17 +32,17 @@ permalink: /projects/flying-carpet/
     The design went through three real generations. It started as a single flapping wing on a hinge. That became the first "Flying Carpet": a square mylar sheet with a thruster at each corner. Once motors were mounted and powered on, that mylar version proved extremely hard to control and folded in on itself under thrust, so it was replaced with the current star-shaped foldable flying surface, machined from polycarbonate. The star shape is a deliberate choice: it decouples thruster action at each point from the others and provides natural folding modes for the structure itself, rather than fighting the material to get it to fold predictably.
   </p>
   <p>
-    Motors and propellers were sized with a real thrust budget in mind. I moved the design from a 1340-size motor and 2530 propeller combo up to a 1404 motor and 3025/3035 tri-blade propeller combo, adding roughly 400g of thrust headroom and landing on an estimated ~1200g of combined lift against a total vehicle mass of about 375g, comfortable margin left deliberately for controls development. Component selection (motors, ESC, flight controller, battery) was mine; BetaFlight handled flight-controller firmware and I used its stock tuning tools rather than writing custom control code.
+    The design also branched into multiple prototype bodies built at different polycarbonate thicknesses. This wasn't about optimizing toward one "best," stiffest version; each thickness behaves differently in the air, and building several let us observe and capture data on how instability changed as flexibility changed, which is central to studying a flexible airframe in the first place. Alongside that, I moved motor and propeller sizing from a 1340-size motor and 2530 propeller combo up to a 1404 motor and 3025/3035 tri-blade propeller combo, adding roughly 400g of thrust headroom and landing on an estimated ~1200g of combined lift against a total vehicle mass of about 375g. I selected the motors, ESC, flight controller, and battery myself, and used BetaFlight's built-in tuning tools to fly rather than writing custom flight-control code.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
     <img src="https://diego-0303.github.io/images/FLYING_CARPET3.png" alt="CAD model of the star-shaped Flying Carpet body" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
-    <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 2: CAD model of the star-shaped body, designed in SolidWorks and Onshape.</figcaption>
+    <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 2: CAD model of the star-shaped body, designed in Onshape.</figcaption>
   </figure>
 
   <h3 style="font-size: 1.3rem; margin-top: 40px;">Electronics and Fabrication</h3>
   <p>
-    The center of the body carries a 3D-printed electronics hub housing a 4-in-1 ESC and flight controller stack and a 3S 300mAh LiHV battery, controlled manually over a standard RC transmitter. The hub itself went through its own redesign to solve a real integration problem: mounting a battery and keeping wiring connected to the flight controller reliably on a structure that's supposed to flex and fold. Polycarbonate body sheets were waterjet-cut; the earlier mylar sheets were laser-cut; motor mounts and the hub were 3D-printed in PLA and assembled with M2 screws.
+    The center of the body carries a 3D-printed electronics hub housing a 4-in-1 ESC and flight controller stack and a 3S 300mAh LiHV battery, controlled manually over a standard RC transmitter. The hub itself went through its own redesign to solve a real integration problem, mounting a battery and keeping wiring connected to the flight controller reliably on a structure that's supposed to flex and fold. Polycarbonate body sheets were waterjet-cut; the earlier mylar sheets were laser-cut; motor mounts and the hub were 3D-printed in PLA and assembled with M2 screws.
   </p>
 
   <h3 style="font-size: 1.3rem; margin-top: 40px;">Testing</h3>
