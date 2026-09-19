@@ -7,7 +7,7 @@ title: Diego Garcia
 <div class="blog-feed-container" style="margin-top: 15px;">
   <article class="feed-item">
     <div class="feed-meta">
-      <span class="feed-date">Caltech ME/CS 133a Capstone</span>
+      <span class="feed-date">Caltech ME/CS/EE 169</span>
       <span class="tag-pill">Robotics</span>
       <span class="tag-pill">ROS</span>
       <span class="tag-pill">LiDAR</span>
