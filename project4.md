@@ -32,7 +32,7 @@ permalink: /projects/ME133A/
   </figure>
 
   <p>
-    The kinematics behind it is what makes this more than a manipulator-arm exercise. Atlas is a 30-DOF floating-base humanoid: the pelvis itself translates and rotates as part of the gait rather than staying fixed in the world, and I solved inverse kinematics independently across six separate kinematic chains hanging off it, both feet, the torso, the head, and both hands, each driven by closed-loop IK through the Jacobian pseudoinverse with proportional error feedback, integrated forward at every timestep. Coordinating six chains and a moving base simultaneously, on a specific timed choreography, is what made this substantially harder than a single fixed-base arm reaching for a target.
+    We were challenged to make something a bit more complex than assignments focused on controlling manipulator arms. Atlas is a 30-DOF floating-base humanoid: the pelvis itself translates and rotates as part of the gait rather than staying fixed in the world, and I solved inverse kinematics independently across six separate kinematic chains hanging off it, both feet, the torso, the head, and both hands, each driven by closed-loop IK through the Jacobian pseudoinverse with proportional error feedback, integrated forward at every timestep. Coordinating six chains and a moving base simultaneously, on a specific timed choreography, is what made this substantially harder than a single fixed-base arm reaching for a target.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
@@ -42,7 +42,7 @@ permalink: /projects/ME133A/
 
   <h3 style="font-size: 1.3rem; margin-top: 40px;">ME133b: Trapezoidal Decomposition and Roadmap Path Planning</h3>
   <p>
-    My ME133b final project, with a classmate, built a path planner from scratch around trapezoidal cell decomposition: given a 2D world with polygonal obstacles, we decompose the free space into trapezoidal cells, extract each cell's centroid as a roadmap node, connect neighboring centroids, and run A* over that roadmap to find a path between a start and goal point. It's a roadmap-based motion planner built on a real computational-geometry decomposition, not a lookup or a pre-baked grid.
+    My ME133b final project, with a classmate, built a path planner from scratch around trapezoidal cell decomposition: given a 2D world with polygonal obstacles, we decompose the free space into trapezoidal cells, extract each cell's centroid as a roadmap node, connect neighboring centroids, and run A* over that roadmap to find a path between a start and goal point. It's a roadmap-based motion planner built on a real computational-geometry decomposition.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
@@ -51,7 +51,7 @@ permalink: /projects/ME133A/
   </figure>
 
   <p>
-    Building the decomposition itself was the hard part. Our git history shows real incremental debugging: getting node creation right at the trapezoid vertices, fixing centroid placement, and eventually building the roadmap connectivity, over more than a dozen commits before it produced a usable graph. Trapezoidal decomposition is notorious for degenerate edge cases at obstacle vertices, and ours has one still: a handful of malformed cells can produce an empty centroid, which needs a small guard to skip cleanly rather than crash the planner.
+    Building the decomposition itself was the hard part, particularly getting node creation right at the trapezoid vertices and correctly placing centroids for cells with unusual shapes. A handful of malformed cells can still produce an empty centroid, which the planner needs to skip rather than crash on.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
@@ -65,6 +65,6 @@ permalink: /projects/ME133A/
   </figure>
 
   <p>
-    Between the two quarters, ME133a was about coordinating a robot's own many degrees of freedom to hit a target motion, and ME133b was about reasoning over the space a robot moves through to find a path at all. Different halves of the same underlying problem: getting a robot from where it is to where it needs to be.
+    Between the two quarters, ME133a was about coordinating a robot's own many degrees of freedom to hit a target motion, and ME133b was about reasoning over the space a robot moves through to find a path at all.
   </p>
 </div>
