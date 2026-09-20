@@ -8,7 +8,7 @@ permalink: /projects/ERNIE/
   <h2 style="font-size: 2rem; margin-bottom: 8px;">ERNIE: Mars Rover Project</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 20px;">Caltech CRATER Team Project</h3>
 
-  <div style="background: #f7f7f8; border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
+  <div style="background: var(--primary-highlight-color); border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Lead designer for the rover's first arm joint (chassis-mounted, highest-load joint); early brainstorming contributor on the suspension</span>
       <strong>Team</strong><span>CRATER grew from about 10 people to about 20 over my two years on the team</span>

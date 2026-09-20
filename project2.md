@@ -8,7 +8,7 @@ permalink: /projects/flying-carpet/
   <h2 style="font-size: 2rem; margin-bottom: 8px;">Biomimetic Flexible Drone ("Flying Carpet")</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 20px;">Caltech GALCIT, Gharib Research Group</h3>
 
-  <div style="background: #f7f7f8; border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
+  <div style="background: var(--primary-highlight-color); border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Mechanical design lead: structure, motor/propeller sizing, and electronics integration, under PI Mory Gharib and graduate student advisor Ioannis Mandralis</span>
       <strong>Team</strong><span>Solo SURF Fellow, with a PI and a graduate student advisor</span>

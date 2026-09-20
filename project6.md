@@ -8,7 +8,7 @@ permalink: /projects/gearbox/
   <h2 style="font-size: 2rem; margin-bottom: 8px;">ME14: Mechanical Transmission & Mechatronic Toy</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 20px;">Caltech ME14 Course Projects</h3>
 
-  <div style="background: #f7f7f8; border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
+  <div style="background: var(--primary-highlight-color); border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Transmission: BOM and bearing selection, shop fabrication. Mechatronic toy: sensor/actuator integration and firmware, plus enclosure fabrication</span>
       <strong>Team</strong><span>Transmission with four teammates; mechatronic toy with four teammates, split into two sub-teams</span>

@@ -8,7 +8,7 @@ permalink: /projects/shuttlebot/
   <h2 style="font-size: 2rem; margin-bottom: 8px;">Shuttle Bot: Lunar Infrastructure Concept (CHARIOT)</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 20px;">Caltech CS/ME/EE 75: System Design Capstone Project</h3>
 
-  <div style="background: #f7f7f8; border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
+  <div style="background: var(--primary-highlight-color); border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Lead on systems design / CONOPS development, and lead on the YOLOv8 crater-detection model</span>
       <strong>Team</strong><span>Varied by phase: 4 for systems engineering (with Enzo, Ethan, Shrey); 3 for the hardware build (with Maya, James)</span>

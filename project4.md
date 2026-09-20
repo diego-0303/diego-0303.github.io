@@ -8,7 +8,7 @@ permalink: /projects/ME133A/
   <h2 style="font-size: 2rem; margin-bottom: 8px;">ME133A/ME133B: Robotics Kinematics & Path Planning</h2>
   <h3 style="font-size: 1.1rem; color: #666; font-weight: normal; margin-top: 0; margin-bottom: 20px;">Caltech ME133A & ME133B Course Projects</h3>
 
-  <div style="background: #f7f7f8; border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
+  <div style="background: var(--primary-highlight-color); border-radius: 8px; padding: 18px 22px; margin-bottom: 30px; font-size: 0.95rem;">
     <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 6px;">
       <strong>Role</strong><span>Partner final project in both quarters: with a graduate student in ME133a, with a classmate in ME133b</span>
       <strong>Duration</strong><span>Two-quarter sequence, ME133a in Fall 2023 and ME133b in Winter 2024</span>
