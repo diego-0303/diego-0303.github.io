@@ -14,6 +14,7 @@ permalink: /projects/ERNIE/
       <strong>Team</strong><span>CRATER grew from about 10 people to about 20 over my two years on the team</span>
       <strong>Duration</strong><span>Two years (2023–2025); full-time design work in 2023–2024, part-time and mostly administrative in 2025</span>
       <strong>Stack</strong><span>SolidWorks / Fusion 360, McMaster-Carr hardware library, AndyMark FRC gearboxes, custom gear reduction design</span>
+      <strong>Funding</strong><span>Helped write grant proposals that secured $18,000 for the club from Caltech's Housner Fund and the California Space Grant Consortium</span>
       <strong>Outcome</strong><span>Didn't qualify for URC in 2023; invited to demo the platform at CIRC instead</span>
     </div>
   </div>
@@ -77,6 +78,11 @@ permalink: /projects/ERNIE/
     <img src="https://diego-0303.github.io/images/ERNIE_URC.JPG" alt="ERNIE at CIRC demonstration" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
     <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 4: ERNIE at the CIRC platform demonstration.</figcaption>
   </figure>
+
+  <h3 style="font-size: 1.3rem; margin-top: 40px;">Funding the Team</h3>
+  <p>
+    Building a rover costs real money, so part of the work was raising it. As a group, we wrote proposals for grants and other fundraising, and together secured $18,000 for the club through Caltech's Housner Fund and the California Space Grant Consortium.
+  </p>
 
   <p>
     Working on ERNIE was my introduction to a full engineering project with a team, and the valuable lesson that sacrifices in technical capability in a product have to be made according to other constraints such as time, budget, and, in this case, personnel.

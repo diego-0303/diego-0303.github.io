@@ -14,7 +14,7 @@ permalink: /projects/flying-carpet/
       <strong>Team</strong><span>Solo SURF Fellow, with a PI and a graduate student advisor</span>
       <strong>Duration</strong><span>10-week Howell N. Tyson, Sr. SURF Fellowship, with continued involvement through graduation</span>
       <strong>Stack</strong><span>SolidWorks and Onshape, 3D-printed PLA, machined polycarbonate and laser-cut mylar, BetaFlight, brushless motors + 4-in-1 ESC</span>
-      <strong>Outcome</strong><span>Indoor lift-off tests achieved; later work moved to a constrained test rig with motion-capture cameras for controlled data collection</span>
+      <strong>Outcome</strong><span>Indoor lift-off tests achieved; later work moved to a constrained test rig with motion-capture cameras for controlled data collection. The research became the basis of my winning 2026 NDSEG Fellowship proposal</span>
     </div>
   </div>
 
@@ -73,6 +73,10 @@ permalink: /projects/flying-carpet/
     <img src="https://diego-0303.github.io/images/FLYING_CARPET_2.jpg" alt="Jellyfish, the biomimetic inspiration for this project" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
     <figcaption style="margin-top: 10px; font-size: 0.9rem; color: #666; font-style: italic;">Figure 4: Jellyfish, whose contracting, flexible bodies motivated this project's approach to flight.</figcaption>
   </figure>
+
+  <p>
+    Toward the end of this work, I wrote a graduate research proposal based on it, and it won me a 2026 National Defense Science and Engineering Graduate (NDSEG) Fellowship.
+  </p>
 
   <p>
     This project is still active in the lab. I'd describe my role less as leading the whole research program and more as the person facilitating it end to end: specifying and building the mechanical hardware the controls and modeling work depends on, and helping stand up the physical infrastructure, the constrained rig and motion-capture setup, that later testing needed.
