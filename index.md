@@ -16,7 +16,7 @@ title: Diego Garcia
       <a href="/projects/LARY/">LARY: LiDAR Assisted Robot for You</a>
     </h3>
     <p class="feed-excerpt">
-      A fully autonomous mobile robot developed for Caltech's capstone robotics course. Integrated sensor fusion (encoders, gyroscope, LiDAR) in ROS for real-time localization, mapping, and dynamic path planning, placing 4th in the Pac-Man maze competition.
+      A fully autonomous mobile robot built for Caltech's capstone robotics course. Fused encoders, gyroscope, and LiDAR in ROS 2 for localization against a known map, with obstacle replanning, placing 4th of 15 teams in the Pac-Man maze competition.
     </p>
     <a href="/projects/LARY/" class="read-more-link">Read more &rarr;</a>
   </article>
@@ -26,28 +26,28 @@ title: Diego Garcia
       <span class="feed-date">Gharib Research Group</span>
       <span class="tag-pill">Aerospace</span>
       <span class="tag-pill">Biomimetics</span>
-      <span class="tag-pill">Control Theory</span>
+      <span class="tag-pill">Test Rig Design</span>
     </div>
     <h3 class="feed-item-title">
       <a href="/projects/flying-carpet/">Biomimetic Flexible Drone ("Flying Carpet")</a>
     </h3>
     <p class="feed-excerpt">
-      Mechanical design and rapid prototyping of a biomimetic flexible drone capable of multimodal flight (flapping, gliding, parachuting). Developed structural actuation components to analyze flight dynamics inspired by avian and marine systems.
+      Mechanical design of a biomimetic flexible drone that embeds rotors in a flexible airframe, plus the constrained test rig and motion-capture setup used to study its flight. The research led to a 2026 NDSEG Fellowship.
     </p>
     <a href="/projects/flying-carpet/" class="read-more-link">Read more &rarr;</a>
   </article>
 
   <article class="feed-item">
     <div class="feed-meta">
-      <span class="feed-date">Caltech CS/ME/EE 125</span>
+      <span class="feed-date">Caltech CS/ME/EE 75</span>
       <span class="tag-pill">Space Robotics</span>
       <span class="tag-pill">Systems Engineering</span>
     </div>
     <h3 class="feed-item-title">
-      <a href="/projects/shuttlebot/">Shuttle Bot: Lunar Infrastructure Robot</a>
+      <a href="/projects/shuttlebot/">Shuttle Bot: Lunar Infrastructure Concept (CHARIOT)</a>
     </h3>
     <p class="feed-excerpt">
-      A cable-driven autonomous rover designed for lunar crater infrastructure development based on a NASA Big Idea Challenge concept. Implemented hardware upgrades and sensor perception for closed-loop autonomous payload traversal.
+      Led systems design for a cable-riding lunar crater exploration concept and trained a YOLOv8 crater-detection model that ran live on a Jetson at the final demo.
     </p>
     <a href="/projects/shuttlebot/" class="read-more-link">Read more &rarr;</a>
   </article>
@@ -60,10 +60,10 @@ title: Diego Garcia
       <span class="tag-pill">ROS</span>
     </div>
     <h3 class="feed-item-title">
-      <a href="/projects/ME133A/">Robotics Kinematics & Coverage Path Planning</a>
+      <a href="/projects/ME133A/">Robotics Kinematics & Path Planning</a>
     </h3>
     <p class="feed-excerpt">
-      Full kinematic simulation of the Boston Dynamics Atlas robot on crutches in ROS, alongside non-intersecting grid coverage path planning using trapezoidal cell decomposition for autonomous mobile robots.
+      A ROS simulation of the Atlas humanoid walking on crutches with an injured leg, driven by closed-loop inverse kinematics across six chains, alongside a roadmap path planner built on trapezoidal cell decomposition and A*.
     </p>
     <a href="/projects/ME133A/" class="read-more-link">Read more &rarr;</a>
   </article>
@@ -72,14 +72,14 @@ title: Diego Garcia
     <div class="feed-meta">
       <span class="feed-date">Caltech CRATER Team</span>
       <span class="tag-pill">Mechatronics</span>
-      <span class="tag-pill">Rocker-Bogie</span>
-      <span class="tag-pill">6-DOF Arm</span>
+      <span class="tag-pill">Robotic Arm</span>
+      <span class="tag-pill">Grant Writing</span>
     </div>
     <h3 class="feed-item-title">
-      <a href="/projects/ERNIE/">ERNIE: University & Canadian Rover Competitions</a>
+      <a href="/projects/ERNIE/">ERNIE: Mars Rover Project</a>
     </h3>
     <p class="feed-excerpt">
-      Mechanical design, stress analysis, and fabrication for a competition Mars rover featuring a JPL heritage rocker-bogie suspension system and a custom 6-DOF high-torque robotic arm.
+      Designed the first joint of the robotic arm for a competition Mars rover with Caltech's CRATER team, and helped write the grant proposals that raised $18,000 for the club.
     </p>
     <a href="/projects/ERNIE/" class="read-more-link">Read more &rarr;</a>
   </article>
@@ -95,23 +95,23 @@ title: Diego Garcia
       <a href="/projects/gearbox/">Mechanical Transmission & Interactive Mechatronic Toy</a>
     </h3>
     <p class="feed-excerpt">
-      Precision design and machine-shop fabrication of a multi-gear mechanical transmission, paired with an IR-sensor activated dual-purpose pet toy defended in formal preliminary and critical design reviews.
+      Machine-shop fabrication of a 2-stage spur gear transmission for a scored contest, plus a motion-triggered mechatronic cat toy with microwave sensing and randomized linear-actuator motion, defended in formal design reviews.
     </p>
     <a href="/projects/gearbox/" class="read-more-link">Read more &rarr;</a>
   </article>
 
   <article class="feed-item">
     <div class="feed-meta">
-      <span class="feed-date">Caltech Earthquake Lab</span>
+      <span class="feed-date">Caltech SURF, Community Seismic Network</span>
       <span class="tag-pill">Structural Health</span>
       <span class="tag-pill">GPU Computing</span>
       <span class="tag-pill">Signal Processing</span>
     </div>
     <h3 class="feed-item-title">
-      <a href="/projects/earthquake/">Structural Health Monitoring for Earthquake Engineering</a>
+      <a href="/projects/earthquake/">GPU-Accelerated Structural Health Monitoring</a>
     </h3>
     <p class="feed-excerpt">
-      Research under Prof. Monica Kohler developing algorithms for structural integrity monitoring of high-rise buildings during seismic events, optimizing CPU-to-GPU compute pipelines for real-time safety response.
+      Ported the FFT and numerical-integration functions of a building-monitoring system to the GPU with CUDA and benchmarked them against the CPU code on recorded and live data from Millikan Library.
     </p>
     <a href="/projects/earthquake/" class="read-more-link">Read more &rarr;</a>
   </article>

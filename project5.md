@@ -20,7 +20,7 @@ permalink: /projects/ERNIE/
   </div>
 
   <p>
-    ERNIE was my first college experience on an engineering project team. As part of Caltech's Rover, Autonomy, Technology and Research (CRATER) team, I spent two years designing mechanical subsystems for a Mars-analog rover, most substantially the first joint of its robotic arm. The team grew from about ten people when I joined to roughly twenty by the time I left, and the rover itself went through two hardware generations: an original silver-chassis version (2023–2024) and a later version (2024–2025) with a new chassis from Protocase, shown in blue below.
+    ERNIE was my first college experience on an engineering project team. As part of the Caltech Rover Autonomy, Technology and Exploration Research (CRATER) team, I spent two years designing mechanical subsystems for a Mars-analog rover, most substantially the first joint of its robotic arm. The team grew from about ten people when I joined to roughly twenty by the time I left, and the rover itself went through two hardware generations: an original silver-chassis version (2023–2024) and a later version (2024–2025) with a new chassis from Protocase, shown in blue below.
   </p>
 
   <figure style="margin: 35px 0; text-align: center;">
